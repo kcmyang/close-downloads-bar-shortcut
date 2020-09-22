@@ -7,24 +7,35 @@
   <style>
     body {
       font-size: 1rem;
-      min-width: 17.5rem;
+      min-width: 13.5rem;
+      color: #fcfcfa;
       background-color: #222222;
-      display: flex;
-      justify-content: center;
+    }
+
+    h1 {
+      padding: 0;
+      margin: 0 0 0.7rem 0;
+      font-size: 1.2rem;
+      line-height: 1.45rem;
     }
 
     div {
-      color: #fcfcfa;
+      padding: 0;
+      margin: 0 0 0.7rem 0;
     }
 
-    #shortcut-link {
+    a {
+      float: right;
       color: #78dce8;
     }
   </style>
 </head>
 
 <body>
-  <div>Close downloads bar shortcut: <a id="shortcut-link" href="">error</a>.</div>
+  <h1>Extra Shortcuts</h1>
+  <div>Close downloads bar: <a id="close_downloads_bar" href="">?</a></div>
+  <div>Toggle tab pinned: <a id="toggle_tab_pinned" href="">?</a></div>
+  <div>Toggle tab muted: <a id="toggle_tab_muted" href="">?</a></div>
 </body>
 
 </html>
